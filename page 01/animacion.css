@@ -1,0 +1,199 @@
+.ball{
+    position: absolute;
+    background-color: rgb(36, 178, 191);
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    /* transform:translateY(200px) translateX(50px); */
+    /* transform:translateY(400px) translateX(100px); */
+    /* animation: transcicion 2s linear 1s 1 alternate backwards; */
+    /* animation: transcicion 3s linear 1s 1 alternate backwards; */
+}
+/* @keyframes transcicion {
+    0% {
+        transform:translateY(800px) translateX(100px);
+    }
+    25% {
+        transform:translateY(400px) translateX(100px);
+    }
+    50%{
+        transform:translateY(400px) translateX(0px);
+    }
+    75%{
+        transform:translateY(200px) translateX(100px);  
+    }
+    100%{
+        transform:translateY(400px) translateX(0px);
+        opacity: 0;
+    }
+}  */
+.a{
+    transform:translateY(400px) translateX(0px);
+    /* transform:translateY(800px) translateX(0px); */
+    animation-name: trancicion06;
+	animation-duration: 8s;
+	animation-timing-function: linear;
+	animation-delay: 0.6s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-fill-mode: none;
+}
+@keyframes trancicion06{
+    0%{
+        transform:translateY(600px) translateX(0px);
+        /* opacity: 0; */
+    }
+    25%{
+        /* transform:translateY(150px) translateX(150px); */
+    }
+    50%{
+        transform:translateY(400px) translateX(0px);
+        background-color: rgb(248, 162, 105);
+    }
+    100%{
+        background-color: rgb(248, 162, 105);
+    }
+    
+}
+.b{
+    transform:translateY(360px) translateX(0px);
+
+    animation-name: trancicion05;
+	animation-duration: 8s;
+	animation-timing-function: linear;
+	animation-delay: 0.4s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-fill-mode: none;
+}
+@keyframes trancicion05{
+    0%{
+        transform:translateY(600px) translateX(0px);
+    }
+    25%{
+        /* transform:translateY(150px) translateX(150px); */
+    }
+    50%{
+        transform:translateY(360px) translateX(0px);
+        background-color: rgb(248, 162, 105);
+    }
+    100%{
+        background-color: rgb(248, 162, 105);
+
+    }
+    
+}
+.c{
+    transform:translateY(320px) translateX(0px);
+
+    animation-name: trancicion04;
+	animation-duration: 8s;
+	animation-timing-function: linear;
+	animation-delay: 0.2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-fill-mode: none;
+
+}
+@keyframes trancicion04{
+    0%{
+        transform:translateY(600px) translateX(0px);
+    }
+    25%{
+        /* transform:translateY(150px) translateX(150px); */
+    }
+    50%{
+        transform:translateY(320px) translateX(0px);
+        background-color: rgb(248, 162, 105);
+    }
+    100%{
+        background-color: rgb(248, 162, 105);
+
+    }
+    
+}
+
+
+
+
+
+
+.d{
+    transform:translateY(320px) translateX(40px);
+    /* transform:translateY(150px) translateX(100px); */
+
+    animation-name: trancicion01;
+	animation-duration: 7s;
+	animation-timing-function: linear;
+	animation-delay: 0.4s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-fill-mode: none;
+}
+@keyframes trancicion01{
+    0%{
+        transform:translateY(-200px) translateX(150px);
+    }
+    25%{
+        transform:translateY(150px) translateX(150px);
+    }
+    50%{
+        transform:translateY(150px) translateX(40px);
+    }
+    75%{
+        transform:translateY(320px) translateX(40px);
+
+    }
+}
+
+.e{
+    transform:translateY(360px) translateX(40px);
+    animation-name: trancicion02;
+	animation-duration: 7s;
+	animation-timing-function: linear;
+	animation-delay: .2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-fill-mode:none;
+}
+@keyframes trancicion02{
+    0%{
+        transform:translateY(-200px) translateX(150px);
+    }
+    25%{
+        transform:translateY(150px) translateX(150px);
+    }
+    50%{
+        transform:translateY(150px) translateX(40px);
+    }
+    75%{
+    transform:translateY(360px) translateX(40px);
+
+    }
+}
+
+.f{
+    transform:translateY(400px) translateX(40px);
+    animation-name: trancicion03;
+	animation-duration: 7s;
+	animation-timing-function:linear;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-fill-mode: none;
+}
+@keyframes trancicion03{
+    0%{
+        transform:translateY(-200px) translateX(150px);
+    }
+    25%{
+        transform:translateY(150px) translateX(150px);
+    }
+    50%{
+        transform:translateY(150px) translateX(40px);
+    }
+    75%{
+    transform:translateY(400px) translateX(40px);
+
+    }
+}
